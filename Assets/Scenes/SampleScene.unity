@@ -594,6 +594,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &860432379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3073403305775193263, guid: 3e16226d3d9ea47af9df00f8881de57d,
+    type: 3}
+  m_PrefabInstance: {fileID: 206297484289808061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &860432386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860432379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 812915074c53b4365992e3d5294d2531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimation
+--- !u!114 &860432387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860432379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad2ee7b92d624f928736a9e84645205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FreezeRotation2D
 --- !u!1 &1097970967
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,10 +1018,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5765350678412232546, guid: 3e16226d3d9ea47af9df00f8881de57d,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6353965110353769563, guid: 3e16226d3d9ea47af9df00f8881de57d,
+        type: 3}
+      propertyPath: speed
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3073403305775193263, guid: 3e16226d3d9ea47af9df00f8881de57d,
+        type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 860432386}
+    - targetCorrespondingSourceObject: {fileID: 3073403305775193263, guid: 3e16226d3d9ea47af9df00f8881de57d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 860432387}
   m_SourcePrefab: {fileID: 100100000, guid: 3e16226d3d9ea47af9df00f8881de57d, type: 3}
 --- !u!1001 &417855048817894353
 PrefabInstance:
@@ -1005,6 +1053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397066583053537988, guid: 3e3d360ad05574b229f4967499cf289c,
+        type: 3}
+      propertyPath: speed
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6397066583053537988, guid: 3e3d360ad05574b229f4967499cf289c,
         type: 3}
