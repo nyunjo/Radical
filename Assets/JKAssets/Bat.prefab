@@ -206,7 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FollowTarget
   rigidbody2D: {fileID: 0}
   target: {fileID: 0}
-  speed: 0.5
+  speed: 0.15
   lookAtTarget: 1
   useSide: 0
 --- !u!114 &7923422751937339783
