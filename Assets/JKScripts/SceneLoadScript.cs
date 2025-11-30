@@ -5,6 +5,6 @@ public class Control : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("lvl1");
+        SceneManager.LoadScene("1.TheCornBegins");
     }
 }
