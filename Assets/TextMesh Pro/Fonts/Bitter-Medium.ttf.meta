@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31e92793b1cfc4f658609910fce9226a
+guid: 72b52cc676a674c71a316c7105457785
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Sunshiney
+  - Bitter
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
