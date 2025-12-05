@@ -59,5 +59,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/B3.unity
     guid: b0125b91529f94ba983e6c3b1a95e717
+  - enabled: 1
+    path: Assets/Scenes/1A.Shortcut.unity
+    guid: 0f4c0d1d61f894cd6a14ff45159edbc3
+  - enabled: 1
+    path: Assets/Scenes/A6.unity
+    guid: 1a49d4e17ec694817a2901c4312430ae
+  - enabled: 1
+    path: Assets/Scenes/B4.unity
+    guid: ef58d24c3e2ec4e289d3373c0e4497fe
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
