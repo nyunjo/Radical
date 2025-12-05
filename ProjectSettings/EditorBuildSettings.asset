@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/1A.LeftBeginPathway.unity
     guid: b27975ab312ef4ed9bff1fc31ac660d8
   - enabled: 1
-    path: Assets/Scenes/1B.RightBeginPathway.unity
+    path: Assets/Scenes/B.unity
     guid: ac6cf965b16d2489fa359335d1e349b7
   - enabled: 1
     path: Assets/Scenes/B1ENDWCollect.unity
@@ -44,5 +44,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/B2.unity
     guid: 63875d41ce0ba4195904b65de44103bf
+  - enabled: 1
+    path: Assets/Scenes/A3.unity
+    guid: 83ceeb0197a974106a240a8fa8ac9ff5
+  - enabled: 1
+    path: Assets/Scenes/A1.unity
+    guid: 83a0136cb17f44e4798462241fb4c7ad
+  - enabled: 1
+    path: Assets/Scenes/A4.unity
+    guid: ff132a473d7544b749262f62ded562e1
+  - enabled: 1
+    path: Assets/Scenes/YOU WIN YAY.unity
+    guid: 0abdf260dd05241439afbb8da59d17fa
+  - enabled: 1
+    path: Assets/Scenes/B3.unity
+    guid: b0125b91529f94ba983e6c3b1a95e717
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

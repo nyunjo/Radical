@@ -52,6 +52,12 @@ TagManager:
   - name: Gameplay
     uniqueID: 1087635889
     locked: 0
+  - name: Player
+    uniqueID: 1673296617
+    locked: 0
+  - name: Shortcut
+    uniqueID: 3278093171
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
