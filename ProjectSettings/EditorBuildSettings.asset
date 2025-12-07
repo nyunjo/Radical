@@ -68,5 +68,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/B4.unity
     guid: ef58d24c3e2ec4e289d3373c0e4497fe
+  - enabled: 1
+    path: Assets/Scenes/B4.Shortcut.unity
+    guid: 3fede7c66cbf1475dabaed184b1b956d
+  - enabled: 1
+    path: Assets/Scenes/B5.unity
+    guid: ab9932eaa2ca64874942183fb651fc6a
+  - enabled: 1
+    path: Assets/Scenes/Final Boss.unity
+    guid: 63d839d197dcf4573a8155097e8231a0
+  - enabled: 1
+    path: Assets/Scenes/A5.unity
+    guid: 7e58010c4f0864aa4945b2a290840de7
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
