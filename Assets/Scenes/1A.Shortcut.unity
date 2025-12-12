@@ -3247,6 +3247,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UserInterface
       objectReference: {fileID: 0}
+    - target: {fileID: 64930382003693958, guid: 910bed0e11d864472ae96eb8ade36d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 524113299072757474, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_IsActive
@@ -3255,97 +3260,102 @@ PrefabInstance:
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 68.26667
       objectReference: {fileID: 0}
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 114.73334
       objectReference: {fileID: 0}
     - target: {fileID: 2115947126453785966, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -58
       objectReference: {fileID: 0}
     - target: {fileID: 3591495397950793501, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3782179765485814988, guid: 910bed0e11d864472ae96eb8ade36d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1161.4667
       objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 744.6
       objectReference: {fileID: 0}
     - target: {fileID: 4056312797714206259, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -58
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 25.6
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 52.8
       objectReference: {fileID: 0}
     - target: {fileID: 5340504842045162742, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -58
       objectReference: {fileID: 0}
     - target: {fileID: 6724114416057550139, guid: 910bed0e11d864472ae96eb8ade36d57,
         type: 3}
@@ -3729,6 +3739,8 @@ GameObject:
   - component: {fileID: 974249313}
   - component: {fileID: 974249312}
   - component: {fileID: 974249311}
+  - component: {fileID: 974249316}
+  - component: {fileID: 974249315}
   m_Layer: 0
   m_Name: Shortcut Sprite (6)
   m_TagString: Untagged
@@ -3789,7 +3801,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974249310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
@@ -3869,6 +3881,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &974249315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974249310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a4647d3a321452ea507a5464cb2f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnOffAction
+  objectToAffect: {fileID: 974249310}
+  justMakeInvisible: 1
+--- !u!114 &974249316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974249310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConditionArea
+  actions:
+  - {fileID: 974249315}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1 &1022713250
 GameObject:
   m_ObjectHideFlags: 0
@@ -4057,6 +4106,8 @@ GameObject:
   - component: {fileID: 1141666575}
   - component: {fileID: 1141666574}
   - component: {fileID: 1141666573}
+  - component: {fileID: 1141666578}
+  - component: {fileID: 1141666577}
   m_Layer: 0
   m_Name: Shortcut Sprite (3)
   m_TagString: Untagged
@@ -4117,7 +4168,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141666572}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
@@ -4196,6 +4247,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1141666577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141666572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a4647d3a321452ea507a5464cb2f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnOffAction
+  objectToAffect: {fileID: 1141666572}
+  justMakeInvisible: 1
+--- !u!114 &1141666578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141666572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConditionArea
+  actions:
+  - {fileID: 1141666577}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1 &1286235737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +4296,8 @@ GameObject:
   - component: {fileID: 1286235740}
   - component: {fileID: 1286235739}
   - component: {fileID: 1286235738}
+  - component: {fileID: 1286235743}
+  - component: {fileID: 1286235742}
   m_Layer: 0
   m_Name: Shortcut Sprite (4)
   m_TagString: Untagged
@@ -4268,7 +4358,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286235737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
@@ -4347,6 +4437,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286235742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286235737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a4647d3a321452ea507a5464cb2f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnOffAction
+  objectToAffect: {fileID: 1286235737}
+  justMakeInvisible: 1
+--- !u!114 &1286235743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286235737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConditionArea
+  actions:
+  - {fileID: 1286235742}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1 &1339111914
 GameObject:
   m_ObjectHideFlags: 0
@@ -6011,6 +6138,7 @@ GameObject:
   - component: {fileID: 1366210339}
   - component: {fileID: 1366210338}
   - component: {fileID: 1366210341}
+  - component: {fileID: 1366210342}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6061,7 +6189,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.864865
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6136,6 +6264,30 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1366210342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366210337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
+  m_ComponentVersion: 1
+  m_AssetsPPU: 37
+  m_RefResolutionX: 640
+  m_RefResolutionY: 360
+  m_CropFrame: 4
+  m_GridSnapping: 1
+  m_FilterMode: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1 &1509089771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6148,6 +6300,8 @@ GameObject:
   - component: {fileID: 1509089774}
   - component: {fileID: 1509089773}
   - component: {fileID: 1509089772}
+  - component: {fileID: 1509089777}
+  - component: {fileID: 1509089776}
   m_Layer: 0
   m_Name: Shortcut Sprite (5)
   m_TagString: Untagged
@@ -6208,7 +6362,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509089771}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
@@ -6288,6 +6442,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509089776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509089771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a4647d3a321452ea507a5464cb2f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnOffAction
+  objectToAffect: {fileID: 1509089771}
+  justMakeInvisible: 1
+--- !u!114 &1509089777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509089771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConditionArea
+  actions:
+  - {fileID: 1509089776}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1 &1526026548
 GameObject:
   m_ObjectHideFlags: 0
